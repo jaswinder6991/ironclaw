@@ -12,6 +12,9 @@ echo "Building bundled channels..."
 if [ -d "channels-src/telegram" ]; then
     ./channels-src/telegram/build.sh
 fi
+if [ -d "channels-src/whatsapp" ]; then
+    ./channels-src/whatsapp/build.sh
+fi
 
 echo ""
 echo "Building IronClaw..."
